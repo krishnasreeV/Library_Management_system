@@ -1,6 +1,7 @@
 # Description: #
 The objective of the project is to build a library management system for library administrataion employees.
 The application allows the end-user to add genres, authors and books. It allows the end-user to search the book by genre, author or book. It allows the user to issue a book and keep track of number of books left.
+
 # End-user workflow: #
 A glimpse of end-user workflow is hown in the below video. 
 ![](images/workflow.gif)
@@ -23,10 +24,6 @@ A glimpse of end-user workflow is hown in the below video.
 * All view templates(jsp files) are maintained in WEB-INF/jsp folder.
 * war packaging is used to set up the application. SpringBootServletInitializer runs SpringApplication from a WAR archive deployed on tomcat. This class binds Servlet, Filter and ServletContextInitializer beans from the application context to the server.
 
-# Project Architechture: #
-This is a spring boot application integrated with hibernate. The picture below shows the architechture/flow diagram of the application.
-![](images/Architechture.png)
-
 #### Workflow: ####
 * Spring starts and auto-configures an embedded web server i.e Tomcat. 
 * Any http request is received by the dispatcher servlet.
@@ -40,7 +37,21 @@ This is a spring boot application integrated with hibernate. The picture below s
 * Hibernate interacts with MySQL Database through JDBC, performs the persistence logic and returns a persistent object(Model).
 * Finally after the handler method executes the application logic it returns a ModelAndView. View name is returned and Model contains the data returned.
 * Then, the dispatcher servlet dispatches the task of resolving the ModelAndView to View Resolver. The ViewResolver provides a mapping between view names and actual views. The data returned in the model is set to the actual views appropriately and displayed at the client.
- 
+
+# End-user workflow: #
+A glimpse of end-user workflow is hown in the below video. 
+![](images/workflow.gif)
+
+#### Administration employee operations include: ####
+* Add, modify, delete a genre.
+* Add, modify, delete an author.
+* Add, modify, delete a new book along with number of books available.
+* Search books by genre, author or book names.
+* Add a book issuer along with a limit on number of books a issuer can issue.
+* Modify or delete a book issuer.
+* Issue a book and keep track of number of books available.
+* Return a book and keep track of number of books available.
+
 # Guide to run the application: #
 * Clone the project from git to your local system.
 
