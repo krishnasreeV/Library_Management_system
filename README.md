@@ -2,19 +2,9 @@
 The objective of the project is to build a library management system for library administrataion employees.
 The application allows the end-user to add genres, authors and books. It allows the end-user to search the book by genre, author or book. It allows the user to issue a book and keep track of number of books left.
 
-# End-user workflow: #
-A glimpse of end-user workflow is hown in the below video. 
-![](images/workflow.gif)
-
-#### Administration employee operations include: ####
-* Add, modify, delete a genre.
-* Add, modify, delete an author.
-* Add, modify, delete a new book along with number of books available.
-* Search books by genre, author or book names.
-* Add a book issuer along with a limit on number of books a issuer can issue.
-* Modify or delete a book issuer.
-* Issue a book and keep track of number of books available.
-* Return a book and keep track of number of books available.
+# Application Architechture: #
+This is a spring boot application integrated with hibernate. The picture below shows the architechture/flow diagram of the application.
+![](images/Architechture.png)
 
 # Initial set-up: #
 * The project is a maven spring boot project created through the spring initializer web service. All required dependencies are added to pom.xml
