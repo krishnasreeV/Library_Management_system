@@ -1,0 +1,11 @@
+com\edufect\beans\BookA.class
+com\edufect\beans\Issuers.class
+com\edufect\beans\Authors.class
+com\edufect\library\ServletInitializer.class
+com\edufect\controller\controllerA.class
+com\edufect\DAO\DAO.class
+com\edufect\beans\IssuedBookA.class
+com\edufect\beans\searchstring.class
+com\edufect\beans\Genre.class
+com\edufect\beans\ReturnBook.class
+com\edufect\library\libraryApplication.class
