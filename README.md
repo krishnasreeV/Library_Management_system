@@ -20,6 +20,10 @@ A glimpse of end-user workflow is hown in the below video.
 * Issue a book and keep track of number of books available.
 * Return a book and keep track of number of books available.
 
+# Entity Relationship diagram #
+ER diagram for the application is shown below.
+![](images/ER_diagram.png)
+
 # Application Architechture: #
 This is a spring boot application integrated with hibernate. The picture below shows the architechture/flow diagram of the application.
 ![](images/Architechture.png)
